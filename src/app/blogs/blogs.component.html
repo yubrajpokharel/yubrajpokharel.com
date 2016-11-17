@@ -1,0 +1,17 @@
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h1 class="mainTitle">Blogging</h1>
+  <p>I only dont like to code and perform development by myself but also like to share my knowledge with others.
+   I often used to write blog post when ever I learned something new and also for those topics which is hard for me to understand.
+  Angular and ElasticSearch are the main interest and I had also wrote some blogs on those topics before.
+  Below are the some links of my blogs. </p>
+</div>
+
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h2 class="subTitle">Blog List</h2>
+  <p *ngFor="let blog of blogs">
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" target="_blank" href="{{blog.link}}">
+      <i class="material-icons">link</i> {{blog.title}}
+    </a>
+  </p>
+</div>
+

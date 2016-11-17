@@ -1,0 +1,16 @@
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h1 class="mainTitle">Videos</h1>
+  <p>Beside professional programmer I also like to make and edit films especially short movies. This is also one
+  of my passion. Till now I am involved in one short movie and is also planning to make some in the future.
+  The group I used to work with is known as "PSEUDONONYMOUS EPISTLE".</p>
+</div>
+
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h2 class="subTitle">Watch Now</h2>
+  <p *ngFor="let video of videos">
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" target="_blank" href="{{video.link}}">
+        <i class="material-icons">play_circle_outline</i> {{video.title}}
+      </a>
+  </p>
+</div>
+

@@ -1,3 +1,54 @@
-<h1>
-  {{title}}
-</h1>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <!-- Top row, always visible -->
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Yubraj Pokharel</span>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="waterfall-exp">
+        </div>
+      </div>
+    </div>
+    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row mdl-layout--large-screen-only">
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" routerLink="/"><i class="material-icons">home</i> Home</a>
+        <a class="mdl-navigation__link" routerLink="/videos"><i class="material-icons">music_video</i> Videos</a>
+        <!--<a class="mdl-navigation__link" routerLink="/"><i class="material-icons">developer_board</i> Experiences</a>-->
+        <a class="mdl-navigation__link" routerLink="/blogs"><i class="material-icons">library_books</i> Blogs</a>
+        <a class="mdl-navigation__link" routerLink="/contact"><i class="material-icons">mail_outline</i> Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mdl-layout__drawer sideNav mdl-layout--small-screen-only">
+    <div class="mdl-grid mdl-color--blue-grey-900 ">
+      <div class="col s12 m4">
+        <img src="http://t08.deviantart.net/PSHdpKDuuYBmz6cCNC80b7DapVo=/300x200/filters:fixed_height(100,100):origin()/pre01/8f0c/th/pre/i/2012/311/2/6/burning_desire_by_incolor16-d5kazf8.jpg" alt="" class="circle user-img responsive-img">
+      </div>
+    </div>
+    <span class="mdl-layout-title">Yubraj Pokharel</span>
+    <nav class="mdl-navigation sideNav">
+      <a class="mdl-navigation__link" routerLink="/"><i class="material-icons">home</i> Home</a>
+      <a class="mdl-navigation__link" routerLink="/videos"><i class="material-icons">music_video</i> Videos</a>
+      <!--<a class="mdl-navigation__link" href=""><i class="material-icons">developer_board</i> Experiences</a>-->
+      <a class="mdl-navigation__link" routerLink="/blogs"><i class="material-icons">library_books</i> Blogs</a>
+      <a class="mdl-navigation__link" routerLink="/contact"><i class="material-icons">mail_outline</i> Contact</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content mdl-grid portfolio-max-width">
+          <router-outlet></router-outlet>
+      </div>
+
+  </main>
+
+  <!--Footer section-->
+</div>

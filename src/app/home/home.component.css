@@ -1,0 +1,24 @@
+.mainTitle, .subTitle{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8em;
+  color: rgb(38,50,56);
+  width: 100%;
+  border-bottom: 2px solid;
+}
+
+.subTitle{
+  font-size: 1.8em;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(38,50,56);
+  text-align: justify;
+  width: 100%;
+}
+
+.key{
+  font-weight: bold;
+}

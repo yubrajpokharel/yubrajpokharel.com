@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.mdl-layout__header-row{
+  background-color: rgb(38,50,56) !important;
+}
+
+.toolbar{
+  padding-top: 5px;
+}
+
+.sideNav{
+  background-color: #FFF;
+}
+
+.myNavbar{
+  background-color: rgba(30, 49, 56, 0.8);
+}
+
+.user-img {
+  width: 70%;
+  display: block;
+  margin: 0px auto;
+}
+
+img.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+
+img.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button{
+  background-color: transparent !important;}
+
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+._innerPadding{
+  padding: 10px !important;
+}
+
+
+

@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "title": "Languages",
+      "desc": "Core Java, Scala, Groovy on Grails"
+    },
+    {
+      "title": "Web",
+      "desc": "Servlets, JSP, AJAX, JavaScript, jQuery, HTML / HTML5, CSS3, REST/SOAP"
+    },
+    {
+      "title": "JavaScript Frameworks",
+      "desc": "Node, AngularJS 1 & 2, Polymer"
+    },
+    {
+      "title": "Databases",
+      "desc": "MySQL, ORACLE 10g (PL / SQL)"
+    },
+    {
+      "title": "Design Patterns",
+      "desc": "Factory Pattern, Singleton Pattern, Messanger"
+    },
+    {
+      "title": "Frameworks",
+      "desc": "Spring MVC, Hibernate"
+    },
+    {
+      "title": "SDLC",
+      "desc": "Waterfall, AGILE-SCRUM, RUP"
+    },
+    {
+      "title": "Test Tools",
+      "desc": "JUnit, Mockito"
+    },
+    {
+      "title": "Tools",
+      "desc": "IntelliJ IDE, Eclipse IDE, HeidiSQL, Bower, Grunt, Git, Subversion"
+    },
+    {
+      "title": "Web / App Servers",
+      "desc": "Apache Tomcat, GlassFish, Node"
+    },
+    {
+      "title": "Operating Systems",
+      "desc": "Windows, Linux"
+    }
+  ]
+}

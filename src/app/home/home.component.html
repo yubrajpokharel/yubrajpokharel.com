@@ -1,0 +1,29 @@
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+
+  <h1 class="mainTitle">Who am I?</h1>
+  <p>Highly motivated and enthusiastic Software Engineer with years of experience designing/
+    developing/ deploying large scale distributed software applications on JVM.
+  Have been developing/designing robust, anti-fragile, scalable webservices. Well-versed in
+    developing Service Oriented Architecture and contributing to all phases of SDLC.
+  Have been developing/designing robust, anti-fragile, scalable webservices. Well-versed in
+    developing Service Oriented Architecture and contributing to all phases of SDLC.</p>
+</div>
+
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h2 class="subTitle">Professional Stacks</h2>
+  <p *ngFor="let item of getTechStack">
+    <span class="key"> {{item.title}} :</span>
+    <span>{{item.desc}}</span>
+  </p>
+</div>
+
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h2 class="subTitle">Specification</h2>
+  <p>{{spec}}</p>
+</div>
+
+<div class="mdl-cell mdl-grid mdl-cell--12-col mdl-card mdl-shadow--4dp _innerPadding">
+  <h2 class="subTitle">Goal</h2>
+  <p>{{goal}}</p>
+</div>
+

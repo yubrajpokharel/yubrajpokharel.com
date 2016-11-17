@@ -1,0 +1,19 @@
+.mainTitle, .subTitle{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8em;
+  color: rgb(38,50,56);
+  width: 100%;
+  border-bottom: 2px solid;
+}
+
+.subTitle{
+  font-size: 1.8em;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+  color: rgb(255,255,255);
+  background-color: rgb(38, 50, 56);
+  margin: 10px;
+}
