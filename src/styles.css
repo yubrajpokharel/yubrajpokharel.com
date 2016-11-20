@@ -52,5 +52,18 @@ img.responsive-img {
   padding: 10px !important;
 }
 
+.video{
+  color: rgb(248, 86, 88) !important;
+}
+
+.blog{
+  color: rgb(110, 125, 206) !important;
+  /*color: rgb(63, 81, 181) !important;*/
+}
+
+.contact{
+  color: rgb(52, 168, 83) !important;
+}
+
 
 
